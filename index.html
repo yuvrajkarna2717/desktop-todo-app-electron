@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Jira Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Task Board</h1>
+
+  <!-- Button to Add Task -->
+  <button id="show-task-form-btn">Add Task</button>
+
+  <!-- Task Form (Initially Hidden) -->
+  <div id="task-form" class="hidden">
+    <input type="text" id="task-name" placeholder="Task Name">
+    <textarea id="task-desc" placeholder="Task Description"></textarea>
+    <input type="text" id="task-tags" placeholder="Tags (comma separated)">
+    <button id="add-task-btn">Add Task</button>
+    <button id="cancel-task-btn">Cancel</button>
+  </div>
+
+  <h2>Tasks</h2>
+  <div id="tasks-list">
+    <!-- Tasks will appear here -->
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
