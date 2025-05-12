@@ -1,0 +1,30 @@
+{
+  "name": "desktop-todo-app-electron",
+  "version": "1.0.0",
+  "description": "This is the first time i am trying out electron.js and learning to build a simple todo desktop app.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvrajkarna2717/desktop-todo-app-electron.git"
+  },
+  "keywords": [
+    "electronjs",
+    "nodejs",
+    "learning",
+    "desktop",
+    "app",
+    "to-do-app"
+  ],
+  "author": "Yuvraj Karna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvrajkarna2717/desktop-todo-app-electron/issues"
+  },
+  "homepage": "https://github.com/yuvrajkarna2717/desktop-todo-app-electron#readme",
+  "dependencies": {
+    "electron": "^36.2.0"
+  }
+}
