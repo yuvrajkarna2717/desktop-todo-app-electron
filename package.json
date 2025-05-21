@@ -26,5 +26,8 @@
   "homepage": "https://github.com/yuvrajkarna2717/desktop-todo-app-electron#readme",
   "dependencies": {
     "electron": "^36.2.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
   }
 }
